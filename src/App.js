@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-// import './App.css';
+import React, { Component , Fragment} from 'react';
+import NavBar from './components/system/NavBar';
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="content">
-
+      <Fragment>
+        <NavBar />
+        <div className="container-fluid">
+          <div className="content">
+          </div>
         </div>
-      </div>
+      </Fragment>
     );
   }
 }
